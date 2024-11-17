@@ -1,0 +1,48 @@
+body {
+	min-width: 100vw;
+	min-height: 100vh;
+	background-size: cover;
+	background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+	background-image: radial-gradient(18% 28% at 24% 50%, #E8CEFFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 18% 71%, #FFFFFF59 6%, #073AFF00 100%),radial-gradient(70% 53% at 36% 76%, #7399FFFF 0%, #073AFF00 100%),radial-gradient(42% 53% at 15% 94%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(42% 53% at 34% 72%, #CEF3FFFF 7%, #073AFF00 100%),radial-gradient(18% 28% at 35% 87%, #FFFFFFFF 7%, #073AFF00 100%),radial-gradient(31% 43% at 7% 98%, #FFFFFFFF 24%, #073AFF00 100%),radial-gradient(21% 37% at 72% 23%, #FA6DFF9C 24%, #073AFF00 100%),radial-gradient(35% 56% at 91% 74%, #8A4FFFF5 9%, #073AFF00 100%),radial-gradient(74% 86% at 67% 38%, #BC6DFFF5 24%, #073AFF00 100%),linear-gradient(125deg, #824EFFFF 1%, #4C00FCFF 100%);
+	overflow-x: hidden;
+	overflow-y: auto;
+	}
+.wrapper {
+	width: fit-content;
+	max-width: 80vw;
+	min-height: fit-content;
+	margin: auto;
+	overflow-y: auto;
+}
+h1 {
+	text-align: center;
+}
+form {
+	width: fit-content;
+	height: 80vh;
+	margin: auto;
+	padding: 2em;
+	border: 1px solid rgba(255, 255, 255, 0.3);
+	background: rgba(255, 255, 255, 0.2);
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 40px;
+	overflow: scroll;
+	}
+input {
+	width: 500px;
+	height: 22px;
+    box-sizing: border-box;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    white-space: pre-wrap; /* Preserve white spaces and line breaks */
+	color: black;
+	padding: 0 5px 1px;
+	border: 0;
+	border-bottom-width: 0px;
+	border-bottom-style: none;
+	border-bottom-color: currentcolor;
+	border-bottom: 2px solid black;
+	border-radius: 4px;
+	background: transparent;
+	font-size: 16px;
+	}
