@@ -17,6 +17,9 @@ body {
 h1 {
 	text-align: center;
 }
+.requirements {
+    margin: auto;
+}
 form {
 	width: fit-content;
 	height: 80vh;
