@@ -5,11 +5,11 @@ document.getElementById('form').addEventListener('submit', function(event) {
         const formData = new FormData(event.target);
         let messages = [];
         let currentMessage = '';
-        const userName = document.querySelector('#field1').innerText;
-        let totalCharacters = userName.length + 2; // +2 for the line breaks added after the H1 content
+        const h1Content = document.querySelector('#field1').innerText;
+        let totalCharacters = h1Content.length + 2; // +2 for the line breaks added after the H1 content
         
         // Ensure the first message includes the H1 content
-        currentMessage = `**${userName}**\n\n`;
+        currentMessage = `**📢**\n\n`;
         
         formData.forEach((value, key) => {
             const label = document.querySelector(`label[for="${key}"]`).innerText;
