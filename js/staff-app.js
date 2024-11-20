@@ -9,7 +9,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         let totalCharacters = userName.length + 2; // +2 for the line breaks added after the H1 content
         
         // Ensure the first message includes the H1 content
-        currentMessage = `**${userName} has submited an application.**\n\n`;
+        currentMessage = `**${userName}**\n\n`;
         
         formData.forEach((value, key) => {
             const label = document.querySelector(`label[for="${key}"]`).innerText;
@@ -62,7 +62,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         // Function to send all messages sequentially
         function sendMessagesSequentially(messages) {
             if (messages.length === 0) {
-                window.location.href = '/components/application-submitted.html';
+                window.location.href = '/application-submitted.html';
                 return;
             }
             
