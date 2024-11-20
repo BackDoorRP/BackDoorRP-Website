@@ -9,7 +9,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
         let totalCharacters = h1Content.length + 2; // +2 for the line breaks added after the H1 content
         
         // Ensure the first message includes the H1 content
-        currentMessage = `**📢**\n\n`;
+        currentMessage = `**Please review.**\n\n`;
         
         formData.forEach((value, key) => {
             const label = document.querySelector(`label[for="${key}"]`).innerText;
