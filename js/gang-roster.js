@@ -9,7 +9,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
     let totalCharacters = h1Content.length + 2; // +2 for the line breaks added after the H1 content
     
     // Ensure the first message includes the H1 content
-    currentMessage = `**Please review.**\n\n`;
+    currentMessage = `*@staff*\n\n`;
     
     formData.forEach((value, key) => {
         const label = document.querySelector(`label[for="${key}"]`).innerText;
@@ -37,7 +37,7 @@ document.getElementById('form').addEventListener('submit', function(event) {
             content: message
         };
         
-        const webhookURL = 'https://discord.com/api/webhooks/1314135572490485792/TTTKuOvS4UJQhOqn44gnkh5ACuHsUQ9W1YpfvaF0qrQuz6dKawShZBILaph8SZpOpvhd';
+        const webhookURL = 'https://discord.com/api/webhooks/1308128310919823390/Goj6jzgoXl6HFEMnp1ijvgn5Lor1ldu2M5zsuE71xgF_JSYz8SbbpzU6RP-ajwkt_oOV';
         
         fetch(webhookURL, {
             method: 'POST',
