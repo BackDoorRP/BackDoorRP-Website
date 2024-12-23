@@ -6,10 +6,8 @@ document.getElementById('form').addEventListener('submit', function(event) {
         let messages = [];
         let currentMessage = '';
         const h1Content = document.querySelector('#field1').innerText;
-        let totalCharacters = h1Content.length + 2; // +2 for the line breaks added after the H1 content
-        
-        // Ensure the first message includes the H1 content
-        currentMessage = `**Please review.**\n\n`;
+        let totalCharacters = h1Content.length + 1; // +1 for the line breaks added after the H1 content
+        currentMessage = `<@&1289369319146524673>\n`;
         
         formData.forEach((value, key) => {
             const label = document.querySelector(`label[for="${key}"]`).innerText;
@@ -62,7 +60,8 @@ document.getElementById('form').addEventListener('submit', function(event) {
         // Function to send all messages sequentially
         function sendMessagesSequentially(messages) {
             if (messages.length === 0) {
-                window.location.href = '/application-submitted.html';
+                document.getElementById('wrapper').style.display = 'none';
+                document.getElementById('application-submitted').style.display = 'block';
                 return;
             }
             
