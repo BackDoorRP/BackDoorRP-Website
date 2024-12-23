@@ -48,12 +48,14 @@ document.getElementById('form').addEventListener('submit', function(event) {
                 if (response.ok) {
     callback(); // Call the callback to send the next message
                 } else {
-    alert('There was an error sending the data. Please try again.');
+                    document.getElementById('wrapper').style.display = 'none';
+                    document.getElementById('application-submitted').style.display = 'block';
                 }
             })
             .catch(error => {
                 console.error('Error:', error);
-                alert('There was an error sending the data. Please try again.');
+                document.getElementById('wrapper').style.display = 'none';
+                document.getElementById('application-submitted').style.display = 'block';
             });
         }
         
