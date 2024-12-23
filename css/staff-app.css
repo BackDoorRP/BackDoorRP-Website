@@ -113,6 +113,9 @@ button:hover {
   background-image: linear-gradient(144deg,hsla(275, 100%, 63%), hsla(248, 88%, 61%) 50%,hsla(184, 100%, 46%));
   
 }
+.application-submitted {
+	visibility: hidden;
+}
   @media only screen and (max-width: 719px) {
 	form {
 	  width: 100%;
