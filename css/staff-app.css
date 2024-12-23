@@ -114,7 +114,7 @@ button:hover {
   
 }
 .application-submitted {
-	visibility: hidden;
+	display: none;
 }
   @media only screen and (max-width: 719px) {
 	form {
