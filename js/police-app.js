@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
     form.addEventListener("submit", function(event) {
         event.preventDefault();
         const data = new FormData(form);
-        let content = "<@&1289369319146524673>\n";
+        let content = "<@&1301077852149645394>\n";
         
         const parts = [];
         for (let [key, value] of data.entries()) {

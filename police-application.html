@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+    <head>
+		<meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="BackDoor RP Police Application.">
+        <meta name="author" content="Pacdizzle">
+        <title>BDRP | Police application</title>
+        <link href="css/staff-app.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+		<div class="wrapper">
+			<h1>Police Application</h1>
+			<form id="form">
+				<ol>
+					<li>
+						<label for="field1">What is your Discord username?</label><br>
+						<textarea type="text" id="field1" name="field1" required></textarea>
+					</li>
+					<li>
+						<label for="field2">What is your character name?</label><br>
+						<textarea type="text" id="field2" name="field2" required></textarea>
+					</li>
+					<li>
+						<label for="field3">What is you IRL age?</label><br>
+						<textarea type="text" id="field3" name="field3" required></textarea>
+					</li>
+					<li>
+						<label for="field4">Why do you want to join and what interests you most about this role?</label><br>
+						<textarea type="text" id="field4" name="field4" required></textarea>
+					</li>
+					<li>
+						<label for="field5">How would you react if you disagreed with a directive or strategy from your commanding officer?</label><br>
+						<textarea type="text" id="field5" name="field5" required></textarea>
+					</li>
+					<li>
+						<label for="field6">Describe a time when you had to resolve a conflict. How did you handle it, and what was the outcome?</label><br>
+						<textarea type="text" id="field6" name="field6" required></textarea>
+					</li>
+					<li>
+						<label for="field7">Do you understand we do not allow corruption RP and require all BDPD/BDSO employees to act professional at all times?</label><br>
+						<textarea type="text" id="field7" name="field7" required></textarea>
+					</li>
+					<li>
+						<label for="field8">What personal qualities or skills do you believe make you a strong candidate for the department?</label><br>
+						<textarea type="text" id="field8" name="field8" required></textarea>
+					</li>
+					<li>
+						<label for="field9">How would you deal with a situation where a civilian is agitated or uncooperative during a police interaction?</label><br>
+						<textarea type="text" id="field9" name="field9" required></textarea>
+					</li>
+					<li>
+						<label for="field10">If you made an error in the line of duty, how would you approach admitting and correcting it?</label><br>
+						<textarea type="text" id="field10" name="field10" required></textarea>
+					</li>
+					<li>
+						<label for="field11">Where do you see yourself within the department? Are there specific areas you wish to specialize in or contribute to?</label><br>
+						<textarea type="text" id="field11" name="field11" required></textarea>
+					</li>
+					<li>
+						<label for="field12">Anything else you would like to add?</label><br>
+						<textarea type="text" id="field12" name="field12" required></textarea>
+					</li>
+				</ol>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+		<div class="application-submitted">
+            <img src="https://i.postimg.cc/YqsgTwKZ/new-logo.png" alt=""></img>
+			<h1>Your appliction has been submitted</h1>
+			<div class= "requirements">
+          		<div class="notice">
+				    <p style="width:30vw;">Thank you for appyling. You'll be contacted through Discord to schedule your Police interview.
+            		</p>
+					<div id="countdown"></div>
+          	</div>
+          	<button onclick="window.location.href='index.html';">Back</button>
+		</div>
+		<script src="js/police-app.js"></script>
+    </body>
+</html>
