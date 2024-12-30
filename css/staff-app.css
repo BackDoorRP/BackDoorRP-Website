@@ -16,7 +16,7 @@ body {
     background-color: #7812ed85;
     border-radius: 40px;
 }
-.wrapper {
+.wrapper, .application-submitted {
 	width: fit-content;
 	max-width: 80vw;
 	min-height: fit-content;
@@ -36,6 +36,7 @@ ol {
 }
 ol li {
 	width: 95%;
+	text-align: left;
 }
 form, .notice {
 	width: 33vw;
