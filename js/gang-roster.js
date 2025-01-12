@@ -19,7 +19,7 @@ document.getElementById('form').addEventListener('submit', function(e) {
     const payload = { content: content };
 
     // Send the payload to the Discord webhook
-    fetch('https://discord.com/api/webhooks/1314135572490485792/TTTKuOvS4UJQhOqn44gnkh5ACuHsUQ9W1YpfvaF0qrQuz6dKawShZBILaph8SZpOpvhd', {
+    fetch('https://discord.com/api/webhooks/1328089693195210783/qroF6PIkHpKCrEvI1hJkn6BLRa7WZ6jQdlUfkCYd4BriXc0WsYtKXRlpCqe_F5Sl5-dg', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'

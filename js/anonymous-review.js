@@ -1,7 +1,7 @@
 document.getElementById('form').addEventListener('submit', function(event) {
 	event.preventDefault();
 	var textareaContent = document.getElementById('field1').value;
-	var webhookUrl = 'https://discord.com/api/webhooks/1322776498507092009/G1S0C-4w1OhXjl-TssHyyZS5Jjxtk1Vd5yW_FWbCd-HXG9fMrEpNe6a8iA_yfV0XFY4X';
+	var webhookUrl = 'https://discord.com/api/webhooks/1328089531081035856/UYAMYPjrrfzPbni4dTDpGMcZljhFIF_V5s0f7OnXsJF6oPyVOI38wMF5evsJ3rfeM9MT';
                 
 	var request = new XMLHttpRequest();
 	request.open('POST', webhookUrl, true);

@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         if (content) parts.push(content);
 
-        const webhookUrl = "https://discord.com/api/webhooks/1323131653966532690/337NPkA5uSFM81OY1bGIvv8af95RYZHEkwbgTvajpP2XsDYO6jvE5G1jGvZXQ-4MqxY-";
+        const webhookUrl = "https://discord.com/api/webhooks/1328089906618044457/b5pQS-f4PFYoRjjRpgt8DYzqVByyPoyPr8KUhcfcCGzQgRvYsw2kEs7jbQlqGIqR-uhy";
         const totalTime = parts.length * 2;
         let remainingTime = totalTime;
 
